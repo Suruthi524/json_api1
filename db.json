@@ -1,6 +1,7 @@
 {
   "borrowers": [
     {
+      "id": "S1234567A",
       "fullName": "Testtt Dev",
       "loanApplicationId": "LOA/23901",
       "applicationDate": "2024-03-20T12:00:00Z",
@@ -31,40 +32,143 @@
       "action": "DOCUMENT_VERIFICATION",
       "ctosReport": {
         "ficoScore": 735
+      }
+    },
+    {
+      "id": "S9876543B",
+      "fullName": "Alice Tan",
+      "loanApplicationId": "LOA/23902",
+      "applicationDate": "2024-03-22T14:30:00Z",
+      "age": 28,
+      "mobileNo": "0187654321",
+      "emailId": "alice.tan@example.com",
+      "nric": "S9876543B",
+      "address": {
+        "addressLine1": "45 Orchard Road",
+        "addressLine2": "Apt 1203",
+        "city": "Singapore",
+        "state": "Central",
+        "postalCode": "238881",
+        "country": "Singapore"
       },
-      "communicationAddress": {
-        "line1": "SR Nagar",
-        "line2": "Balkumpet",
-        "cityName": "Hyderabad",
-        "stateName": "Johor",
-        "postalCode": "500038",
-        "countryName": "Malaysia"
+      "loanAmount": 30000,
+      "repaymentPeriod": "36 months",
+      "purposeApplication": "Business Expansion",
+      "purposeApplicationDescription": "Opening a new cafe branch",
+      "employmentType": "Self-employed",
+      "position": "Entrepreneur",
+      "companyName": "Tan's Cafe",
+      "yearsOfExperience": 5,
+      "monthlyIncome": 8500,
+      "monthlyCommitment": 3500,
+      "totalAssets": 150000,
+      "totalLiabilities": 60000,
+      "action": "CREDIT_CHECK",
+      "ctosReport": {
+        "ficoScore": 720
+      }
+    },
+    {
+      "id": "T7654321C",
+      "fullName": "John Lim",
+      "loanApplicationId": "LOA/23903",
+      "applicationDate": "2024-03-18T09:45:00Z",
+      "age": 40,
+      "mobileNo": "0198765432",
+      "emailId": "john.lim@example.com",
+      "nric": "T7654321C",
+      "address": {
+        "addressLine1": "88 Jalan Bukit Bintang",
+        "addressLine2": "Suite 500",
+        "city": "Kuala Lumpur",
+        "state": "WP Kuala Lumpur",
+        "postalCode": "55100",
+        "country": "Malaysia"
       },
-      "incomeTwoYearsAgo": 72000,
-      "yearsInCurrentJob": 3,
-      "industryRisk": "Medium",
-      "altIncomePercentage": 15,
-      "industry": "Software",
-      "employmentHistory": [
-        {
-          "companyName": "Tata Consulting Services",
-          "startDate": "2024-06-15",
-          "endDate": "",
-          "currentlyWorking": true,
-          "role": "Developer",
-          "monthlyIncome": "",
-          "jobType": "Full Time"
-        },
-        {
-          "companyName": "Tata Consulting Services",
-          "startDate": "2024-01-25",
-          "endDate": "2024-06-01",
-          "currentlyWorking": false,
-          "role": "",
-          "monthlyIncome": "",
-          "jobType": "Full Time"
-        }
-      ]
+      "loanAmount": 100000,
+      "repaymentPeriod": "48 months",
+      "purposeApplication": "Home Renovation",
+      "purposeApplicationDescription": "Upgrading kitchen and backyard",
+      "employmentType": "Full-time",
+      "position": "Manager",
+      "companyName": "ABC Corporation",
+      "yearsOfExperience": 15,
+      "monthlyIncome": 12000,
+      "monthlyCommitment": 5000,
+      "totalAssets": 500000,
+      "totalLiabilities": 200000,
+      "action": "INCOME_VERIFICATION",
+      "ctosReport": {
+        "ficoScore": 780
+      }
+    },
+    {
+      "id": "F6543219D",
+      "fullName": "Sara Wong",
+      "loanApplicationId": "LOA/23904",
+      "applicationDate": "2024-03-25T11:15:00Z",
+      "age": 35,
+      "mobileNo": "0176543210",
+      "emailId": "sara.wong@example.com",
+      "nric": "F6543219D",
+      "address": {
+        "addressLine1": "77 Taman Tun Dr Ismail",
+        "addressLine2": "",
+        "city": "Petaling Jaya",
+        "state": "Selangor",
+        "postalCode": "60000",
+        "country": "Malaysia"
+      },
+      "loanAmount": 50000,
+      "repaymentPeriod": "60 months",
+      "purposeApplication": "Car Purchase",
+      "purposeApplicationDescription": "Buying a new hybrid vehicle",
+      "employmentType": "Part-time",
+      "position": "Lecturer",
+      "companyName": "XYZ University",
+      "yearsOfExperience": 10,
+      "monthlyIncome": 5000,
+      "monthlyCommitment": 2000,
+      "totalAssets": 200000,
+      "totalLiabilities": 70000,
+      "action": "DOCUMENT_VERIFICATION",
+      "ctosReport": {
+        "ficoScore": 745
+      }
+    },
+    {
+      "id": "G5432198E",
+      "fullName": "Michael Lee",
+      "loanApplicationId": "LOA/23905",
+      "applicationDate": "2024-03-27T16:00:00Z",
+      "age": 29,
+      "mobileNo": "0154321987",
+      "emailId": "michael.lee@example.com",
+      "nric": "G5432198E",
+      "address": {
+        "addressLine1": "23 Sentul West",
+        "addressLine2": "Condo B-21-3",
+        "city": "Kuala Lumpur",
+        "state": "WP Kuala Lumpur",
+        "postalCode": "51000",
+        "country": "Malaysia"
+      },
+      "loanAmount": 15000,
+      "repaymentPeriod": "12 months",
+      "purposeApplication": "Education Loan",
+      "purposeApplicationDescription": "Funding MBA studies",
+      "employmentType": "Full-time",
+      "position": "Software Engineer",
+      "companyName": "Tech Solutions",
+      "yearsOfExperience": 4,
+      "monthlyIncome": 6000,
+      "monthlyCommitment": 2500,
+      "totalAssets": 80000,
+      "totalLiabilities": 30000,
+      "action": "CREDIT_CHECK",
+      "ctosReport": {
+        "ficoScore": 710
+      }
     }
   ]
 }

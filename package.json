@@ -1,0 +1,17 @@
+{
+  "name": "json-api",
+  "version": "1.0.0",
+  "description": "A simple JSON API using json-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3000",
+    "build": "echo 'No build step required'",
+    "update": "git pull origin main && npm install && npm run start"
+  },
+  "keywords": ["json-server", "mock-api", "REST"],
+  "author": "Suruthi",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
