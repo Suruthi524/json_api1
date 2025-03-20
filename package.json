@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npx json-server --watch db.json --port 3000",
     "build": "echo 'No build step required'",
-    "update": "git pull origin main && npm install && npm run start"
+    "update": "git pull origin main && npm install && npm run start",
+   "postinstall": "chmod +x node_modules/.bin/json-server"
   },
   "keywords": [
     "json-server",
