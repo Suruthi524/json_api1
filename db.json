@@ -1,0 +1,70 @@
+{
+  "borrowers": [
+    {
+      "fullName": "Testtt Dev",
+      "loanApplicationId": "LOA/23901",
+      "applicationDate": "2024-03-20T12:00:00Z",
+      "age": 32,
+      "mobileNo": "0123456789",
+      "emailId": "test@gmail.com",
+      "nric": "S1234567A",
+      "address": {
+        "addressLine1": "123 Main St",
+        "addressLine2": "",
+        "city": "Kuala Lumpur",
+        "state": "WP Kuala Lumpur",
+        "postalCode": "50000",
+        "country": "Malaysia"
+      },
+      "loanAmount": 25000,
+      "repaymentPeriod": "24 months",
+      "purposeApplication": "Personal Loan",
+      "purposeApplicationDescription": "Renovating kitchen and bathroom",
+      "employmentType": "Full-time",
+      "position": "Developer",
+      "companyName": "Entoss Tech",
+      "yearsOfExperience": 6,
+      "monthlyIncome": 7000,
+      "monthlyCommitment": 2800,
+      "totalAssets": 100000,
+      "totalLiabilities": 45000,
+      "action": "DOCUMENT_VERIFICATION",
+      "ctosReport": {
+        "ficoScore": 735
+      },
+      "communicationAddress": {
+        "line1": "SR Nagar",
+        "line2": "Balkumpet",
+        "cityName": "Hyderabad",
+        "stateName": "Johor",
+        "postalCode": "500038",
+        "countryName": "Malaysia"
+      },
+      "incomeTwoYearsAgo": 72000,
+      "yearsInCurrentJob": 3,
+      "industryRisk": "Medium",
+      "altIncomePercentage": 15,
+      "industry": "Software",
+      "employmentHistory": [
+        {
+          "companyName": "Tata Consulting Services",
+          "startDate": "2024-06-15",
+          "endDate": "",
+          "currentlyWorking": true,
+          "role": "Developer",
+          "monthlyIncome": "",
+          "jobType": "Full Time"
+        },
+        {
+          "companyName": "Tata Consulting Services",
+          "startDate": "2024-01-25",
+          "endDate": "2024-06-01",
+          "currentlyWorking": false,
+          "role": "",
+          "monthlyIncome": "",
+          "jobType": "Full Time"
+        }
+      ]
+    }
+  ]
+}
