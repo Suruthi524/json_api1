@@ -4,7 +4,7 @@
   "description": "A simple JSON API using json-server",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --port $PORT",
+    "start": "npx json-server --watch db.json --port 3000",
     "build": "echo 'No build step required'",
     "update": "git pull origin main && npm install && npm run start"
   },
